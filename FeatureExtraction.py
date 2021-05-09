@@ -73,20 +73,3 @@ class Features:
             return 0
         else:
             return sum(sentiment) / len(sentiment)
-
-    #def generate_vocab(data, words):
-    #    n_words = []
-    #    for i in data:
-    #        if i not in words and i not in n_words:
-    #            n_words.append(i)
-
-    #    return n_words
-
-    #def generate_bow(data, words):
-    #    bag_vector = numpy.zeros(len(words))
-    #    for i, w in enumerate(words):
-    #        for word in data:
-    #            if word == w:
-    #                bag_vector[i] += 1
-
-    #    return bag_vector

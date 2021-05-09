@@ -22,12 +22,3 @@ class Steps:
 
         return n_data
 
-    # def lemmatizer(data):
-    #    lemmatize = WordNetLemmatizer()
-    #    n_data = []
-    #    words = []
-    #    for i in data:
-    #        for j in i:
-    #            words.append(lemmatize.lemmatize(j))
-    #        n_data.append(words)
-    #    return n_data
